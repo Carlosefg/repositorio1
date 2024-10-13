@@ -202,6 +202,19 @@ footer {
     margin-bottom: 10px;
 }
 
+.fondo2 {
+    position: relative;
+    width: 100vw;
+    height: 250px;
+    background-image: url('https://media.istockphoto.com/id/495340623/es/foto/cola-y-hielo-fondo-de-alimentos.jpg?s=612x612&w=0&k=20&c=1ckA3Dr7ooz_0ffrfAnjh0AF2h-9s-yorIx1uxTa7hA=');
+    background-size: cover;
+    background-position: center; /* Centra la imagen */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
 .texto {
     position: absolute;
     bottom: 0;
@@ -214,11 +227,11 @@ footer {
 }
 
 table{
-    margin-left: 25px;
+    margin-left: 2vw;
 }
 
 td{
-    padding-left: 20px;
+    padding-left: 3vw;
     padding-bottom: 5px;
     text-align: left;
 }
