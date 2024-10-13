@@ -27,12 +27,15 @@ header{
     color: #DAA520;
     background-color: black;
     text-align: center;
-    padding: 1rem;    /*
-    color: white;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 2vh 12vw;
+    /*
+    color: white;
+    
     background-color: rgb(42, 39, 39);
     padding-top: 20px;
     padding-bottom:20px ;
@@ -113,17 +116,15 @@ footer {
 
 
 .caja1{
-    width: 60Vw;
+    width: 30Vw;
     background: #2b2929;
-    border: 3px #DAA520 solid;
+    border: 2px #DAA520 solid;
     border-radius: 60px;    
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     color:#DAA520;
     text-align: center;
-    font-size: 3vw;
+    font-size: 1.2rem;
 }
 
 .caja2{
@@ -195,22 +196,18 @@ footer {
     position: relative;
     width: 100vw;
     height: 250px;
-    background-image: url('https://acdn.mitiendanube.com/stores/001/133/466/products/pizza-mozarella1-f27baa3e01887f9e6415885330816344-1024-1024.jpg');
     background-size: cover;
     background-position: center; /* Centra la imagen */
     text-align: center;
     margin-bottom: 10px;
 }
 
-.fondo2 {
-    position: relative;
-    width: 100vw;
-    height: 250px;
-    background-image: url('https://media.istockphoto.com/id/495340623/es/foto/cola-y-hielo-fondo-de-alimentos.jpg?s=612x612&w=0&k=20&c=1ckA3Dr7ooz_0ffrfAnjh0AF2h-9s-yorIx1uxTa7hA=');
-    background-size: cover;
-    background-position: center; /* Centra la imagen */
-    text-align: center;
-    margin-bottom: 10px;
+.pizza {
+    background-image: url('https://acdn.mitiendanube.com/stores/001/133/466/products/pizza-mozarella1-f27baa3e01887f9e6415885330816344-1024-1024.jpg');
+}
+
+.bebida {
+    background-image: url('https://img.freepik.com/fotos-premium/fondo-liquido-bebidas-frias_144356-16920.jpg');
 }
 
 
@@ -231,7 +228,7 @@ table{
 }
 
 td{
-    padding-left: 3vw;
+    padding-left: 0px;
     padding-bottom: 5px;
     text-align: left;
 }
@@ -240,4 +237,27 @@ p{
     padding: 0px 10px 0px 10px;
 }
 
-    
+.caja6:hover p{
+    transition: 0s ease-in;
+    padding: 10px 7px;
+    font-size: 1.2rem;
+    /*  transform: scale(1.1);
+    transform: rotate(360deg);  */
+}
+
+.caja6{   
+    width: 80Vw;
+    background: #DAA520;
+    border-top: 2px whitesmoke solid;
+    border-bottom: 2px whitesmoke solid;
+    border-radius: 60px 60px 60px 60px;
+    margin: 12px;
+    padding: 12px 7px 12px 7px;
+    color:#000;
+    text-align: center;
+    font-size: 3vw;
+} 
+
+.caja6 p{
+    font-size: 0rem;
+}
