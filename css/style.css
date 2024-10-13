@@ -17,7 +17,7 @@ main{
     flex-direction: column;
     align-items: center;
     /*padding: 3vh 6vw;*/
-    min-height: 90vh;
+    min-height: 70vh;
     width: 95vw;
     background: #000000;
     padding-top: 10px;
@@ -96,6 +96,8 @@ nav{
 
 
 
+
+
 a{
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -142,21 +144,28 @@ footer {
     border-top: 2px whitesmoke solid;
     border-radius: 60px 60px 0px 0px;
     margin-top: 20px;
-    padding: 12px 7px 7px 7px;
+    padding: 12px 7px 0px 7px;
     color:#000;
     text-align: center;
     font-size: 3vw;
 }
 
-.caja4{
-    
-    width: 80vw;
-    padding: 7px 7px;
-    background: #DAA520;
-    
-    
-    text-align: center;
+.caja4:hover{
+    transition: 0.7s ease-in;
+    height: 100%;
+    padding: 10px 7px;
+    color: #000;
+    /*  transform: scale(1.1);
+    transform: rotate(360deg);  */
+}
 
+.caja4{   
+    width: 80vw;
+    height: 30px;  
+    padding: 0px 7px; 
+    background: #DAA520;
+    color: #DAA520;   
+    text-align: center;
 }
 
 .caja5{
@@ -165,7 +174,7 @@ footer {
     border-bottom: 2px whitesmoke solid;
     border-radius: 0px 0px 80px 80px;
     
-    padding: 7px 7px 10px 7px;
+    padding: 0px 7px 10px 7px;
     color:#000;
     text-align: center;
     font-size: 3vw;
