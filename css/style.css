@@ -151,10 +151,11 @@ footer {
 }
 
 .caja4:hover{
-    transition: 0.7s ease-in;
+    transition: 0s ease-in;
     height: 100%;
     padding: 10px 7px;
     color: #000;
+    font-size: 1rem;
     /*  transform: scale(1.1);
     transform: rotate(360deg);  */
 }
@@ -166,6 +167,7 @@ footer {
     background: #DAA520;
     color: #DAA520;   
     text-align: center;
+    font-size: 0.5rem;
 }
 
 .caja5{
