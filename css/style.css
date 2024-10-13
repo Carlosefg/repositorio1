@@ -155,19 +155,19 @@ footer {
     height: 100%;
     padding: 10px 7px;
     color: #000;
-    font-size: 1rem;
+    font-size: 1.2rem;
     /*  transform: scale(1.1);
     transform: rotate(360deg);  */
 }
 
 .caja4{   
     width: 80vw;
-    height: 30px;  
+    height: 20px; 
     padding: 0px 7px; 
     background: #DAA520;
     color: #DAA520;   
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 0rem;
 }
 
 .caja5{
@@ -211,6 +211,20 @@ footer {
     color: #DAA520;
     padding: 10px 50px;
     text-align: center;
+}
+
+table{
+    margin-left: 25px;
+}
+
+td{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+p{
+    padding: 0px 10px 0px 10px;
 }
 
     
