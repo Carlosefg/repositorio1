@@ -97,14 +97,15 @@ nav{
     transform: rotate(360deg);  */
 }
 
-
-
-
-
 a{
-    color: rgb(0, 0, 0);
     text-decoration: none;
 }
+
+.whatsapp-btn{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
 
 footer {
     color: #DAA520;
